@@ -1,11 +1,7 @@
-
 import telebot
-import os
 from telebot import types
 
-# Теперь токен берется из настроек Render (Environment Variables)
-TOKEN = os.environ.get('TOKEN')
-# Вставь свой Telegram ID сюда (цифрами), чтобы заявки на вывод/пополнение шли тебе
+TOKEN = "8943143101:AAGoHQXQ8XEpaVGfYGWDv3utZfeBwYyA4KA"
 ADMIN_ID = 5045245352
 
 bot = telebot.TeleBot(TOKEN)
