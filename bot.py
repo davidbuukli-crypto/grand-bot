@@ -4,7 +4,7 @@ import telebot
 from telebot import types
 import threading
 
-TOKEN = "8816208555:AAHj3m3qpKjMCCCX65vEbp-XY9O0bqNnyWo"
+TOKEN = "8816208555:AAHI6ra5JPNHFc_Dj76ZrZY6pkJbgIn7J3w"
 ADMIN_ID = 5045245352
 
 bot = telebot.TeleBot(TOKEN)
